@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod a=rwx,u-x,g=rx,o=wx "hello"
+chmod 775 "hello"
