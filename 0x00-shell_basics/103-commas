@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -A1 | awk printf "%s, " ./* ../.*/ && echo
+for item in * .[^.]*; do printf "%s, " "$item"; done | sed 's/, $/\n/'
