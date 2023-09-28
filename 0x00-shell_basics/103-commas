@@ -1,2 +1,2 @@
 #!/bin/bash
-for item in * .[^.]*; do printf "%s, " "$item"; done | sed 's/, $/\n/' | cat
+ls -amvp
